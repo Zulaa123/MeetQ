@@ -1,2 +1,2 @@
 #!/bin/bash
-./OneOnOne/manage.py runserver
+./manage.py runserver

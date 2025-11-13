@@ -85,6 +85,8 @@ export default function SignUp() {
                         id="firstName"
                         label="First Name"
                         autoFocus
+                        value={firstName}
+                        onChange={(e) => setFirstName(e.target.value)}
                         />
                     </Grid>
                     <Grid item xs={12} sm={6}>
@@ -95,6 +97,8 @@ export default function SignUp() {
                         label="Last Name"
                         name="lastName"
                         autoComplete="family-name"
+                        value={lastName}
+                        onChange={(e) => setLastName(e.target.value)}
                         />
                     </Grid>
                     <Grid item xs={12} sm={6}>
@@ -105,6 +109,8 @@ export default function SignUp() {
                         label="Username"
                         name="userName"
                         autoComplete="family-name"
+                        value={userName}
+                        onChange={(e) => setUserName(e.target.value)}
                         />
                     </Grid>
                     <Grid item xs={12}>
@@ -115,6 +121,8 @@ export default function SignUp() {
                         label="Email Address"
                         name="email"
                         autoComplete="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                         />
                     </Grid>
                     <Grid item xs={12}>
@@ -126,6 +134,8 @@ export default function SignUp() {
                         type="password"
                         id="password"
                         autoComplete="new-password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
                         />
                     </Grid>
                     <Grid item xs={12}>
@@ -137,6 +147,8 @@ export default function SignUp() {
                         type="password"
                         id="retypepassword"
                         autoComplete="type again"
+                        value={retypePassword}
+                        onChange={(e) => setRetypePassword(e.target.value)}
                         />
                     </Grid>
                     </Grid>

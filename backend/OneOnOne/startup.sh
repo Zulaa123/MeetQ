@@ -6,15 +6,15 @@ check_virtualenv() {
         echo "virtualenv installation complete."
     fi
 }
-python3 -m venv venv
+python -m venv venv
     source "OneOnOne/venv/bin/activate"
-    pip3 install -U pip3
+    pip3 install -U pip
 
-python3 -m pip3 install --upgrade pip
-python3 -m pip3 install --upgrade Pillow
-python3 -m pip3 install django
-python3 -m pip3 install djangorestframework
-python3 -m pip3 install djangorestframework-simplejwt
+python -m pip install --upgrade pip
+python -m pip install --upgrade Pillow
+python -m pip install django
+python -m pip install djangorestframework
+python -m pip install djangorestframework-simplejwt
 
-python3 ./OneOnOne/manage.py makemigrations
-python3 ./OneOnOne/manage.py migrate
+python ./OneOnOne/manage.py makemigrations
+python ./OneOnOne/manage.py migrate
