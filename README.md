@@ -81,25 +81,6 @@ export const REGISTER_URL = "http://127.0.0.1:8000/accounts/register/";
 export const LOGIN_URL = "http://127.0.0.1:8000/accounts/login/";
 // etc.
 ```
-
-## Contributing
-
-If you'd like to contribute, please fork the repo, create a branch, and submit a pull request. Include useful commit messages and update tests where applicable.
-
-- `ModuleNotFoundError: No module named 'apt_pkg'` in WSL: install `python3-apt` for the correct Python version or use a system Python matching `python3-apt` package.
-
-- Git push permission / authentication errors (403): clear cached credentials in Windows Credential Manager or use a GitHub personal access token (PAT) or SSH keys.## Contributing
-
-If you'd like to contribute, please fork the repo, create a branch, and submit a pull request. Include useful commit messages and update tests where applicable.
-
-## License
-
-Add your preferred license file if you wish to open-source this project.
-
-## Contact
-
-If you need more help getting this running or deploying to Render, open an issue or reach out to the maintainer.
-
 ---
 
 Small course project for CSC309. See subfolders `backend/` and `frontend/` for more details.
